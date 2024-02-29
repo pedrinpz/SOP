@@ -1,0 +1,50 @@
+color 12
+22
+color 32
+color 42
+color 52
+color 02
+color 05
+ren Atividade01 Trabalhos
+md Documentos
+cd Documentos
+mk Projetos
+md Projetos
+md Pessoais
+cd ..
+move /y Trabalhos Ducumentos
+move /y Backup Documentos
+cd Pessoais
+ren Pessoais Lazer 
+cd Documentos
+dir
+ren pessoais lazer
+dir
+cd ..
+dir
+md atividade01
+ren atividade01 trabalhos
+move trabalhos documentos
+cd documentos 
+dir
+doskey /h >> PedroFransisco.txt
+echo inglaterra >>viagens.txt
+echo Estados Unidos >> viagens.txt
+echo Canad  >> viagens.txt
+echo JapÆo >> viagens.txt
+echo Espanha >> viagens.txt
+cd ..
+del lazer
+cd documentos
+del lazer
+s
+md lazer
+cd lazer
+dir
+cd ..
+dir
+move viagens.txt lazer
+cd lazer
+dir
+doskey/history >>PedroFrt
+doskey/history >>PedroFrancisco.txt
